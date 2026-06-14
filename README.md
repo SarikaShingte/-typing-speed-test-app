@@ -19,6 +19,20 @@ This is a simple web-based application that measures a user's typing speed and a
 - CSS
 - JavaScript
 
+ ## 📸 Screenshots
+
+### 🏠 Home Screen
+<img width="1920" height="1080" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/5a9fabcb-237a-429b-ab67-b08101e4e570" />
+
+
+### ⌨️ Typing Screen
+<img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/9a763a9b-9562-4186-a822-109ab0620dcb" />
+
+
+### 📊 Result Screen
+<img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/49c9685a-4fa6-45f7-b1aa-4ace1bcce7b0" />
+
+
 ---
 
 ## 🎯 How It Works
