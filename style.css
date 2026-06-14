@@ -1,0 +1,157 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial,sans-serif;
+
+  background:linear-gradient(
+    135deg,
+    #020617,
+    #001f54,
+    #020617
+  );
+}
+
+.container{
+  width:800px;
+  padding:30px;
+
+  background:rgba(0,20,60,0.35);
+  backdrop-filter:blur(12px);
+
+  border:1px solid rgba(255,255,255,0.1);
+
+  border-radius:20px;
+
+  text-align:center;
+
+  box-shadow:0 0 30px rgba(0,100,255,0.2);
+}
+
+h1{
+  color:white;
+  font-size:50px;
+}
+
+.subtitle{
+  color:#dbeafe;
+  margin-top:10px;
+  margin-bottom:25px;
+  font-size:18px;
+}
+
+.stats{
+  display:flex;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.card{
+  flex:1;
+
+  background:rgba(0,0,0,0.2);
+
+  border:1px solid rgba(0,120,255,0.3);
+
+  color:white;
+
+  padding:15px;
+  border-radius:12px;
+
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card h3{
+  color:#dbeafe;
+}
+
+.card p{
+  font-size:28px;
+  font-weight:bold;
+  margin-top:10px;
+}
+
+.sentence-box{
+  background:rgba(0,0,0,0.2);
+
+  border:1px solid rgba(0,120,255,0.3);
+
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:20px;
+}
+
+#sentence{
+  font-size:20px;
+  line-height:1.8;
+  text-align:left;
+  color:white;
+}
+
+textarea{
+  width:100%;
+  height:150px;
+
+  background:rgba(0,0,0,0.3);
+  color:white;
+
+  border:1px solid #2563eb;
+
+  border-radius:12px;
+
+  padding:15px;
+  font-size:18px;
+
+  resize:none;
+  outline:none;
+}
+
+textarea::placeholder{
+  color:#cbd5e1;
+}
+
+button{
+  padding:12px 25px;
+  border:none;
+  border-radius:10px;
+
+  background:linear-gradient(
+    90deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  color:white;
+  cursor:pointer;
+  font-size:18px;
+
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+#result{
+  margin-top:25px;
+  color:white;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.footer{
+  margin-top:20px;
+  color:#cbd5e1;
+  font-size:14px;
+}
